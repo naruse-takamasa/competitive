@@ -8,13 +8,13 @@ typedef vector<vector<ll>> Matrix;
 void init(int n, Matrix &matrix)
 {
     matrix = vector<vector<ll>>(static_cast<unsigned long>(n), vector<ll>(static_cast<unsigned long>(n)));
-    for (int i = 0; i < n; i++)
+    /*for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
             cin >> matrix[i][j];
         }
-    }
+    }*/
 }
 
 Matrix &operator*(Matrix &matrix, Matrix &matrix1)
